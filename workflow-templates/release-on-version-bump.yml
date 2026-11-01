@@ -44,11 +44,11 @@ jobs:
           R=${LAST:+$LAST..}HEAD
           sec(){ L=$(git log $R --no-merges --pretty='- %s' --grep="^$1"); [ -n "$L" ] && printf "### %s\n%s\n\n" "$2" "$L"; }
           { echo "body<<EOF"
-            sec 'feat' '✨ ميزات جديدة'
-            sec 'fix' '🐛 إصلاحات'
-            sec 'perf' '⚡ أداء'
-            sec 'chore\|refactor\|docs' '🧹 صيانة'
-            echo "**التثبيت:** حمّل \`app-release.apk\` أدناه أو انتظر نسخة المتجر."
+            sec 'feat' '✨ Features'
+            sec 'fix' '🐛 Fixes'
+            sec 'perf' '⚡ Performance'
+            sec 'chore\|refactor\|docs' '🧹 Maintenance'
+            echo "**Install:** download \`app-release.apk\` below, or wait for the store release."
             echo "EOF"; } >> $GITHUB_OUTPUT
       - uses: softprops/action-gh-release@v2
         if: steps.chk.outputs.exists != 'true'

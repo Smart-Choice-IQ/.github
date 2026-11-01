@@ -1,5 +1,5 @@
-# الإبلاغ عن ثغرة أمنية
+# Security policy
 
-لا تفتح Issue عاماً. أرسل التفاصيل إلى **security@smartchoice-iq.com** (أو عبر GitHub → Security → Report a vulnerability) وسنرد خلال 48 ساعة.
+**Do not open a public issue.** Report vulnerabilities to **security@smartchoice-iq.com** or privately via *GitHub → Security → Report a vulnerability*. We acknowledge reports within 48 hours.
 
-يشمل ذلك: تسريب مفاتيح/أسرار، ثغرات في APIs، صلاحيات زائدة في تطبيقات العملاء.
+In scope: leaked credentials or secrets, API vulnerabilities, excessive permissions in client-facing apps, insecure defaults in deployment tooling.

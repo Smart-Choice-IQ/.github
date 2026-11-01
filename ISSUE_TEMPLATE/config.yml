@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: سؤال سريع
+  - name: Quick question
     url: https://github.com/orgs/Smart-Choice-IQ/discussions
-    about: للأسئلة العامة استخدم Discussions بدل Issue
+    about: Use Discussions for general questions instead of opening an issue.

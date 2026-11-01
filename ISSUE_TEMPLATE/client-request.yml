@@ -1,18 +1,24 @@
-name: 🏢 طلب عميل
-description: طلب تخصيص أو تعديل من عميل محدد
+name: "🏢 Client request"
+description: Customisation or change requested by a specific client
 labels: [client, triage]
 body:
   - type: input
     id: client
-    attributes: { label: "العميل / الموقع", placeholder: "client.erp.smartchoice-iq.com" }
+    attributes:
+      label: Client / site
+      placeholder: "client.erp.smartchoice-iq.com"
     validations: { required: true }
   - type: textarea
     id: request
-    attributes: { label: "الطلب بكلمات العميل" }
+    attributes: { label: Request, in the client's own words }
     validations: { required: true }
   - type: dropdown
     id: billing
-    attributes: { label: "التغطية", options: ["ضمن العقد", "يحتاج عرض سعر", "غير محدد"] }
+    attributes:
+      label: Coverage
+      options: ["Within contract", "Needs a quote", "Undetermined"]
   - type: input
     id: due
-    attributes: { label: "الموعد المطلوب", placeholder: "YYYY-MM-DD" }
+    attributes:
+      label: Requested date
+      placeholder: "YYYY-MM-DD"

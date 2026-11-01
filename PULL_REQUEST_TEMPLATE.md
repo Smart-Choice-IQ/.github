@@ -1,24 +1,24 @@
-## ماذا تغيّر؟
-<!-- سطر أو سطران. اربط المهمة: Closes #123 / Trello: … -->
+## Summary
+<!-- One or two lines. Link the task: Closes #123 / Trello card … -->
 
-## النوع
-- [ ] feat — ميزة جديدة
-- [ ] fix — إصلاح
-- [ ] refactor / chore / docs
-- [ ] release — رفع `version` فقط
+## Type
+- [ ] `feat` — new feature
+- [ ] `fix` — bug fix
+- [ ] `refactor` / `chore` / `docs`
+- [ ] `release` — version bump only
 
-## كيف اختُبر؟
-- [ ] `flutter analyze` / `ruff` نظيف
-- [ ] الاختبارات تمر محلياً
-- [ ] جُرِّب على جهاز/موقع: <!-- اسم الجهاز أو الموقع -->
+## How was it tested?
+- [ ] `flutter analyze` / `ruff` clean
+- [ ] Tests pass locally
+- [ ] Verified on device / site: <!-- device model or site name -->
 
-## لقطات / تسجيل (للواجهات)
-| قبل | بعد |
+## Screenshots / recording (UI changes)
+| Before | After |
 |---|---|
 |  |  |
 
-## قائمة التحقق
-- [ ] لا أرقام ألوان أو أبعاد ثابتة داخل الشاشات (Flutter)
-- [ ] لا بيانات حقيقية (أسماء، هواتف، مفاتيح) في الكود أو اللقطات
-- [ ] لم يُرفع `version` إلا إذا كان هذا PR إصدار
-- [ ] حدّثت `docs/` إن تغيّر السلوك
+## Checklist
+- [ ] No hard-coded colors or sizes in screens (Flutter) — tokens only
+- [ ] No real customer data (names, phones, keys) in code or screenshots
+- [ ] `version` was not bumped unless this is a `release:` PR
+- [ ] `docs/` updated if behaviour changed

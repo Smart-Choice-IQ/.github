@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" font-family="Space Grotesk, Inter, Segoe UI, Arial, sans-serif">
+  <rect width="1200" height="150" rx="20" fill="#15181C"/>
+  <g font-size="15" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+    <g transform="translate(30,40)"><rect width="200" height="70" rx="14" fill="#1C1F24" stroke="#2E333C"/><text x="100" y="32">feat/* · fix/*</text><text x="100" y="54" font-size="12" fill="#A7ADB8" font-weight="400">Conventional Commits</text></g>
+    <path d="M232 75h40" stroke="#F7B500" stroke-width="3"/><path d="M266 68l8 7-8 7" fill="none" stroke="#F7B500" stroke-width="3"/>
+    <g transform="translate(276,40)"><rect width="200" height="70" rx="14" fill="#1C1F24" stroke="#2E333C"/><text x="100" y="32">Pull Request</text><text x="100" y="54" font-size="12" fill="#A7ADB8" font-weight="400">template · CODEOWNERS</text></g>
+    <path d="M478 75h40" stroke="#F7B500" stroke-width="3"/><path d="M512 68l8 7-8 7" fill="none" stroke="#F7B500" stroke-width="3"/>
+    <g transform="translate(522,40)"><rect width="200" height="70" rx="14" fill="#1C1F24" stroke="#2E333C"/><text x="100" y="32">CI</text><text x="100" y="54" font-size="12" fill="#A7ADB8" font-weight="400">analyze · test · build</text></g>
+    <path d="M724 75h40" stroke="#F7B500" stroke-width="3"/><path d="M758 68l8 7-8 7" fill="none" stroke="#F7B500" stroke-width="3"/>
+    <g transform="translate(768,40)"><rect width="200" height="70" rx="14" fill="#1C1F24" stroke="#2E333C"/><text x="100" y="32">main</text><text x="100" y="54" font-size="12" fill="#A7ADB8" font-weight="400">protected · linear history</text></g>
+    <path d="M970 75h40" stroke="#F7B500" stroke-width="3"/><path d="M1004 68l8 7-8 7" fill="none" stroke="#F7B500" stroke-width="3"/>
+    <g transform="translate(1014,40)"><rect width="156" height="70" rx="14" fill="#F7B500"/><text x="78" y="32" fill="#1C1F24">Release</text><text x="78" y="54" font-size="12" fill="#1C1F24" font-weight="400">on version bump</text></g>
+  </g>
+</svg>

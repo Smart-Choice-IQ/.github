@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="SmartChoice IQ — Business systems for Iraq">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1C1F24"/><stop offset="1" stop-color="#2A2E35"/></linearGradient>
+    <radialGradient id="glow" cx="85%" cy="20%" r="60%"><stop offset="0" stop-color="#F7B500" stop-opacity=".35"/><stop offset="1" stop-color="#F7B500" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#g)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
+  <g transform="translate(72,86)">
+    <rect width="128" height="128" rx="32" fill="#F7B500"/>
+    <path d="M34 66l22 22 38-44" fill="none" stroke="#1C1F24" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="Space Grotesk, Inter, Segoe UI, Arial, sans-serif" fill="#FFFFFF">
+    <text x="240" y="132" font-size="56" font-weight="700" letter-spacing="-1">SmartChoice IQ</text>
+    <text x="242" y="176" font-size="22" fill="#A7ADB8">Business systems for the Iraqi market — ERPNext · Flutter · SaaS</text>
+    <g transform="translate(242,206)" font-size="14" font-weight="600">
+      <rect width="150" height="32" rx="16" fill="#F7B500"/><text x="75" y="21" text-anchor="middle" fill="#1C1F24">ERPNext / Frappe</text>
+      <rect x="162" width="96" height="32" rx="16" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.2)"/><text x="210" y="21" text-anchor="middle">Flutter</text>
+      <rect x="270" width="164" height="32" rx="16" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.2)"/><text x="352" y="21" text-anchor="middle">Multi-tenant SaaS</text>
+      <rect x="446" width="134" height="32" rx="16" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.2)"/><text x="513" y="21" text-anchor="middle">Karbala, Iraq</text>
+    </g>
+  </g>
+</svg>

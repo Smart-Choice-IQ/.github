@@ -1,24 +1,30 @@
-name: 🐛 بلاغ خطأ
-description: شيء لا يعمل كما يجب
+name: "🐛 Bug report"
+description: Something does not work as expected
 labels: [bug, triage]
 body:
   - type: input
     id: env
-    attributes: { label: "البيئة", placeholder: "ميدان 2.0.0+3 · Android 14 · موقع العميل X" }
+    attributes:
+      label: Environment
+      placeholder: "Maidan 2.0.0+3 · Android 14 · client site X"
     validations: { required: true }
   - type: textarea
     id: steps
-    attributes: { label: "خطوات إعادة الإنتاج", placeholder: "1. …\n2. …\n3. …" }
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. …\n2. …\n3. …"
     validations: { required: true }
   - type: textarea
     id: expected
-    attributes: { label: "المتوقع" }
+    attributes: { label: Expected behaviour }
     validations: { required: true }
   - type: textarea
     id: actual
-    attributes: { label: "ما حدث فعلاً (مع لقطة/لوغ)" }
+    attributes: { label: Actual behaviour (attach screenshot / log) }
     validations: { required: true }
   - type: dropdown
     id: severity
-    attributes: { label: "الخطورة", options: ["حرج — يوقف العمل", "عالٍ", "متوسط", "منخفض"] }
+    attributes:
+      label: Severity
+      options: ["Critical — blocks work", "High", "Medium", "Low"]
     validations: { required: true }
