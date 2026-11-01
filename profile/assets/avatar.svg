@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="SmartChoice IQ">
+  <defs><clipPath id="c"><rect width="512" height="512" rx="112"/></clipPath><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1C1F24"/><stop offset="1" stop-color="#2A2E35"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <circle cx="400" cy="112" r="150" fill="#F7B500" opacity=".16" clip-path="url(#c)"/>
+  <rect x="106" y="106" width="300" height="300" rx="84" fill="#F7B500"/>
+  <path d="M176 262l54 54 108-116" fill="none" stroke="#1C1F24" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
