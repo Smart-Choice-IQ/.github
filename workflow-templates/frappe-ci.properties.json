@@ -1,0 +1,1 @@
+{ "name": "Frappe CI", "description": "ruff + bench run-tests on a throwaway site", "iconName": "python", "categories": ["Python", "Frappe"], "filePatterns": ["hooks.py"] }

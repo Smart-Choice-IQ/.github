@@ -1,0 +1,1 @@
+{ "name": "Flutter CI", "description": "analyze + test + debug build + version-bump guard", "iconName": "flutter", "categories": ["Dart", "Flutter"], "filePatterns": ["pubspec.yaml"] }

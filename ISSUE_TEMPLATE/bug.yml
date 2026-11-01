@@ -1,0 +1,24 @@
+name: 🐛 بلاغ خطأ
+description: شيء لا يعمل كما يجب
+labels: [bug, triage]
+body:
+  - type: input
+    id: env
+    attributes: { label: "البيئة", placeholder: "ميدان 2.0.0+3 · Android 14 · موقع العميل X" }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: "خطوات إعادة الإنتاج", placeholder: "1. …\n2. …\n3. …" }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: "المتوقع" }
+    validations: { required: true }
+  - type: textarea
+    id: actual
+    attributes: { label: "ما حدث فعلاً (مع لقطة/لوغ)" }
+    validations: { required: true }
+  - type: dropdown
+    id: severity
+    attributes: { label: "الخطورة", options: ["حرج — يوقف العمل", "عالٍ", "متوسط", "منخفض"] }
+    validations: { required: true }

@@ -1,0 +1,1 @@
+{ "name": "Release on version bump", "description": "tag + GitHub Release + APK/AAB + Telegram when pubspec version changes", "iconName": "flutter", "categories": ["Flutter", "Release"], "filePatterns": ["pubspec.yaml"] }

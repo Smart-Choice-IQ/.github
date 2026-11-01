@@ -1,0 +1,17 @@
+# المراجعة الإلزامية — تُستخدم مع Ruleset "Require review from Code Owners"
+# الفريق core يراجع كل شيء افتراضياً
+*                               @Smart-Choice-IQ/core
+
+# المتدربون (ops) يملكون طبقة الواجهة فقط
+/lib/features/**/views/         @Smart-Choice-IQ/ops @Smart-Choice-IQ/core
+/lib/features/**/components/    @Smart-Choice-IQ/ops @Smart-Choice-IQ/core
+/**/public/                     @Smart-Choice-IQ/ops @Smart-Choice-IQ/core
+/**/templates/                  @Smart-Choice-IQ/ops @Smart-Choice-IQ/core
+
+# حسّاس: لا يُدمج بدون core
+/.github/                       @Smart-Choice-IQ/core
+/android/app/build.gradle*      @Smart-Choice-IQ/core
+/ios/Runner/Info.plist          @Smart-Choice-IQ/core
+/pubspec.yaml                   @Smart-Choice-IQ/core
+/hooks.py                       @Smart-Choice-IQ/core
+/**/patches.txt                 @Smart-Choice-IQ/core

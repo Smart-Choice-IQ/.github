@@ -1,0 +1,23 @@
+name: Flutter CI
+on:
+  pull_request:
+  push:
+    branches: [main, 'release/**', 'legacy/**']
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with: { channel: stable, cache: true }
+      - run: flutter pub get
+      - run: flutter analyze --fatal-infos
+      - run: flutter test
+      - run: flutter build apk --debug
+      - name: Guard — version bump only in release PR
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          if git diff origin/${{ github.base_ref }} -- pubspec.yaml | grep -q '^+version:'; then
+            case "${{ github.event.pull_request.title }}" in release:*) ;; *) echo "::error::version bump allowed only in a PR titled 'release: x.y.z+n'"; exit 1;; esac
+          fi

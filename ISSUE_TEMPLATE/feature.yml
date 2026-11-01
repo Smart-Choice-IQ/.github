@@ -1,0 +1,17 @@
+name: ✨ طلب ميزة
+description: اقتراح تحسين أو ميزة جديدة
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: "المشكلة التي تحلّها", placeholder: "كمندوب أحتاج … لأن …" }
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes: { label: "الحل المقترح" }
+  - type: textarea
+    id: alt
+    attributes: { label: "بدائل فكّرت فيها" }
+  - type: dropdown
+    id: scope
+    attributes: { label: "النطاق", options: ["واجهة فقط", "واجهة + API", "خادم فقط", "غير متأكد"] }
