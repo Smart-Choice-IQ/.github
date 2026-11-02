@@ -10,6 +10,7 @@ Everything in this repository is applied automatically to every repository in th
 | `ISSUE_TEMPLATE/` | Bug report · Feature request · Client request |
 | `CONTRIBUTING.md` · `SECURITY.md` | Contribution rules and vulnerability disclosure |
 | `workflow-templates/` | CI and release workflows offered under *Actions → New workflow → By Smart-Choice-IQ* |
+| `docs/BRAND.md` | Colors, typography and logo assets for GitHub surfaces |
 | `docs/GOVERNANCE.md` | Checklist of settings that must be configured in the GitHub UI (2FA, teams, rulesets, secrets) |
 
 ## Applying the standard to a repository
